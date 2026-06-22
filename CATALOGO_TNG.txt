@@ -1,0 +1,242 @@
+====================================================================================================
+CATALOGO TNG SHOPS - 46 PERFUMES
+====================================================================================================
+
+ID  1 | Lattafa | Hombre | 29.99€ | 100ml
+       Fakhar Men Black
+       Notas: Cuero, ámbar, especias
+       Imagen: lattafa_fakhar_men_black.png
+
+ID  2 | Lattafa | Hombre | 26.99€ | 100ml
+       Fakhar Men Silver
+       Notas: Bergamota, lavanda, almizcle
+       Imagen: lattafa_fakhar_men_silver.png
+
+ID  3 | Lattafa | Hombre | 24.99€ | 100ml
+       Asad
+       Notas: Pimienta negra, tabaco, cuero
+       Imagen: lattafa_asad.png
+
+ID  4 | Lattafa | Hombre | 22.99€ | 100ml
+       Ramz Silver
+       Notas: Pera, canela, vainilla
+       Imagen: lattafa_ramz_silver.png
+
+ID  5 | Lattafa | Hombre | 27.99€ | 100ml
+       Qaed Al Fursan
+       Notas: Piña, azafrán, ámbar
+       Imagen: lattafa_qaed_al_fursan.png
+
+ID  6 | Lattafa | Hombre | 29.99€ | 100ml
+       Al Wisam
+       Notas: Manzana, cedro, sándalo
+       Imagen: lattafa_al_wisam.png
+
+ID  7 | Lattafa | Hombre | 19.99€ | 100ml
+       Raghba Wood Intense
+       Notas: Madera de oud, almizcle, ámbar
+       Imagen: lattafa_raghba_wood_intense.png
+
+ID  8 | Lattafa | Hombre | 18.99€ | 100ml
+       Shem Al Sheikh
+       Notas: Bergamota, oud, sándalo
+       Imagen: lattafa_shem_al_sheikh.png
+
+ID  9 | Lattafa | Hombre | 21.99€ | 100ml
+       Najdia
+       Notas: Toronja, jengibre, almizcle acuático
+       Imagen: lattafa_najdia.png
+
+ID 10 | Lattafa | Hombre | 25.99€ |  75ml
+       Oud Al Sahraa
+       Notas: Oud, rosa, pachulí
+       Imagen: lattafa_oud_al_sahraa.png
+
+ID 11 |   Armaf | Hombre | 36.99€ | 105ml
+       Club de Nuit Intense Man
+       Notas: Bergamota, pimienta rosa, cuero
+       Imagen: armaf_club_de_nuit_intense_man.png
+
+ID 12 |   Armaf | Hombre | 36.99€ | 105ml
+       Club de Nuit Iconic
+       Notas: Bergamota, pimienta, cuero
+       Imagen: armaf_club_de_nuit_iconic.png
+
+ID 13 |   Armaf | Hombre | 36.99€ | 100ml
+       Club de Nuit Sillage
+       Notas: Limón, jengibre, almizcle
+       Imagen: armaf_club_de_nuit_sillage.png
+
+ID 14 |   Armaf | Hombre | 38.99€ | 100ml
+       Club de Nuit Milestone
+       Notas: Sal marina, bergamota, almizcle blanco
+       Imagen: armaf_club_de_nuit_milestone.png
+
+ID 15 |   Armaf | Hombre | 32.99€ | 100ml
+       Club de Nuit Urban Man
+       Notas: Toronja, cardamomo, cedro
+       Imagen: armaf_club_de_nuit_urban_man.png
+
+ID 16 |   Armaf | Hombre | 28.99€ | 100ml
+       Hunter Intense
+       Notas: Limón, lavanda, ámbar
+       Imagen: armaf_hunter_intense.png
+
+ID 17 |   Armaf | Hombre | 19.99€ | 100ml
+       Tag Him
+       Notas: Toronja, menta, almizcle
+       Imagen: armaf_tag_him.png
+
+ID 18 |   Armaf | Hombre | 21.99€ | 100ml
+       Voyage Blues
+       Notas: Mandarina, lavanda, sándalo
+       Imagen: armaf_voyage_blues.png
+
+ID 19 |   Armaf | Hombre | 27.99€ | 100ml
+       Odyssey Homme
+       Notas: Pimienta rosa, cuero, tabaco
+       Imagen: armaf_odyssey_homme.png
+
+ID 20 |   Armaf | Hombre | 24.99€ |  75ml
+       Shadow Wood
+       Notas: Madera de cedro, ámbar, vainilla
+       Imagen: armaf_shadow_wood.png
+
+ID 21 | Lattafa |  Mujer | 39.99€ | 100ml
+       Khamrah
+       Notas: Canela, dátil, praliné
+       Imagen: lattafa_khamrah.png
+
+ID 22 | Lattafa |  Mujer | 32.99€ | 100ml
+       Ana Abiyedh Poudrée
+       Notas: Almendra, vainilla, almizcle
+       Imagen: lattafa_ana_abiyedh_poudree.png
+
+ID 23 | Lattafa |  Mujer | 24.99€ | 100ml
+       Yara
+       Notas: Fresa, vainilla, almizcle rosado
+       Imagen: lattafa_yara.png
+
+ID 24 | Lattafa |  Mujer | 28.99€ | 100ml
+       Ana Abiyedh Rose
+       Notas: Rosa turca, pachulí, sándalo
+       Imagen: lattafa_ana_abiyedh_rose.png
+
+ID 25 | Lattafa |  Mujer | 22.99€ |  80ml
+       Haya
+       Notas: Pera, jazmín, almizcle
+       Imagen: lattafa_haya.png
+
+ID 26 | Lattafa |  Mujer | 18.99€ | 100ml
+       Raghba
+       Notas: Vainilla, ámbar, oud suave
+       Imagen: lattafa_raghba.png
+
+ID 27 | Lattafa |  Mujer | 29.99€ |  80ml
+       La Charmante
+       Notas: Rosa, jazmín, sándalo
+       Imagen: lattafa_la_charmante.png
+
+ID 28 | Lattafa |  Mujer | 20.99€ | 100ml
+       Musk Mood
+       Notas: Almizcle blanco, lavanda, iris
+       Imagen: lattafa_musk_mood.png
+
+ID 29 | Lattafa |  Mujer | 23.99€ |  75ml
+       Oud Mood
+       Notas: Oud, rosa, azafrán
+       Imagen: lattafa_oud_mood.png
+
+ID 30 | Lattafa |  Mujer | 31.99€ |  80ml
+       Bade'e Al Oud Amethyst
+       Notas: Frutos rojos, oud, vainilla
+       Imagen: lattafa_bade_e_al_oud_amethyst.png
+
+ID 31 |   Armaf |  Mujer | 34.99€ | 100ml
+       Club de Nuit Woman
+       Notas: Melocotón, rosa, almizcle
+       Imagen: armaf_club_de_nuit_woman.png
+
+ID 32 |   Armaf |  Mujer | 36.99€ | 100ml
+       Club de Nuit Imperial
+       Notas: Grosella negra, lirio, vainilla
+       Imagen: armaf_club_de_nuit_imperial.png
+
+ID 33 |   Armaf |  Mujer | 19.99€ | 100ml
+       Tag Her
+       Notas: Frambuesa, violeta, almizcle
+       Imagen: armaf_tag_her.png
+
+ID 34 |   Armaf |  Mujer | 24.99€ | 100ml
+       Hunter Woman
+       Notas: Mandarina, peonía, sándalo
+       Imagen: armaf_hunter_woman.png
+
+ID 35 |   Armaf |  Mujer | 26.99€ | 100ml
+       Odyssey Woman
+       Notas: Pera, jazmín, almizcle blanco
+       Imagen: armaf_odyssey_woman.png
+
+ID 36 |   Armaf |  Mujer | 22.99€ | 100ml
+       Voyage Bloom
+       Notas: Loto, peonía, almizcle
+       Imagen: armaf_voyage_bloom.png
+
+ID 37 |   Armaf |  Mujer | 28.99€ |  80ml
+       Prélude
+       Notas: Bergamota, jazmín, sándalo
+       Imagen: armaf_prelude.png
+
+ID 38 |   Armaf |  Mujer | 25.99€ | 100ml
+       Dareej
+       Notas: Canela, caramelo, flor de naranjo
+       Imagen: armaf_dareej.png
+
+ID 39 |   Armaf |  Mujer | 31.99€ | 100ml
+       Sillage Woman
+       Notas: Lirio, violeta, almizcle
+       Imagen: armaf_sillage_woman.png
+
+ID 40 |   Armaf |  Mujer | 27.99€ |  75ml
+       Mystique
+       Notas: Rosa negra, oud, ámbar
+       Imagen: armaf_mystique.png
+
+ID 41 | Lattafa | Unisex | 28.99€ | 100ml
+       Ana Abiyedh White
+       Notas: Lavanda, almizcle blanco, pera
+       Imagen: lattafa_ana_abiyedh_white.png
+
+ID 42 |   Armaf | Unisex | 33.99€ |  90ml
+       Opacity
+       Notas: Ámbar gris, bergamota, pachulí
+       Imagen: armaf_opacity.png
+
+ID 43 |   Armaf | Unisex | 31.99€ | 100ml
+       Bright Peach
+       Notas: Melocotón, caramelo, flores blancas
+       Imagen: armaf_bright_peach.png
+
+ID 44 | Lattafa | Unisex | 26.99€ | 100ml
+       Maahir Black
+       Notas: Café, cardamomo, cuero
+       Imagen: lattafa_maahir_black.png
+
+ID 45 | Lattafa | Unisex | 23.99€ | 100ml
+       Rave Now
+       Notas: Limón, jengibre, menta
+       Imagen: lattafa_rave_now.png
+
+ID 46 | Lattafa | Unisex | 28.99€ | 100ml
+       Fakhar Rose
+       Notas: Rosa, azafrán, almizcle
+       Imagen: lattafa_fakhar_rose.png
+
+====================================================================================================
+INSTRUCCIONES:
+1. Busca cada perfume en Fragrancenet / Fragrantica / Notino / Amazon
+2. Descarga la imagen oficial del producto (sin watermark)
+3. Renombrala exactamente como indica 'Imagen:' arriba
+4. Colocala en public/images/productos/
+5. Pasame las imagenes y las reemplazo automaticamente
+====================================================================================================

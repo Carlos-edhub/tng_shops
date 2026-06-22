@@ -1,0 +1,15 @@
+feat: PWA instalable + scroll restoration + iconos app
+
+## PWA (Progressive Web App)
+- Service worker (sw.js): caché de assets estáticos y estrategia network-first con fallback a caché
+- Registro automático en main.jsx
+- Manifest.json actualizado: iconos 192x192 y 512x512, theme color gold (#f59e0b), standalone display
+- Meta tags para iOS: apple-mobile-web-app-capable, status-bar-style, apple-touch-icon, startup-image
+- Iconos generados con gradiente oscuro → dorado, círculo central con borde y texto 'TNG'
+
+## Scroll restoration
+- ScrollToTop component que hace scroll al inicio al cambiar de ruta
+- Integrado en App.jsx dentro de BrowserRouter
+
+## Limpieza
+- apple-touch-icon actualizado de /images/logo.png (eliminado) a /images/icon-192.png

@@ -1,0 +1,1 @@
+var e=`34663079312`;function t(){let t=t=>`https://wa.me/${e}?text=${encodeURIComponent(t)}`;return{orderProduct:e=>{let n=t(`Hola, quiero comprar *${e}* desde la web tng_shops. ¿Disponible?`);window.open(n,`_blank`,`width=600,height=600`)},openConsulting:()=>{let e=t(`Hola, vengo de la web tng_shops y quiero asesoría`);window.open(e,`_blank`,`width=600,height=600`)}}}export{t};

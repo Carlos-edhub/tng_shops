@@ -1,0 +1,10 @@
+0000000000000000000000000000000000000000 c30e20a2cfd213577b43993a1c01af4f00ee6841 Carlos <carlosd.cardenas@hotmail.com> 1770320510 +0100	commit (initial): Mi sitio web TNG
+c30e20a2cfd213577b43993a1c01af4f00ee6841 0000000000000000000000000000000000000000 Carlos <carlosd.cardenas@hotmail.com> 1770320758 +0100	Branch: renamed refs/heads/master to refs/heads/main
+0000000000000000000000000000000000000000 c30e20a2cfd213577b43993a1c01af4f00ee6841 Carlos <carlosd.cardenas@hotmail.com> 1770320758 +0100	Branch: renamed refs/heads/master to refs/heads/main
+c30e20a2cfd213577b43993a1c01af4f00ee6841 c30e20a2cfd213577b43993a1c01af4f00ee6841 Carlos <carlosd.cardenas@hotmail.com> 1770367375 +0100	checkout: moving from main to gh-pages
+c30e20a2cfd213577b43993a1c01af4f00ee6841 8236a0ec78cf935e72ffc0924bece3dcea331343 Carlos <carlosd.cardenas@hotmail.com> 1780059384 +0200	commit: feat: migración completa a Vite + React + catálogo final
+8236a0ec78cf935e72ffc0924bece3dcea331343 c30e20a2cfd213577b43993a1c01af4f00ee6841 Carlos <carlosd.cardenas@hotmail.com> 1780059745 +0200	checkout: moving from gh-pages to main
+c30e20a2cfd213577b43993a1c01af4f00ee6841 8236a0ec78cf935e72ffc0924bece3dcea331343 Carlos <carlosd.cardenas@hotmail.com> 1780059749 +0200	reset: moving to gh-pages
+8236a0ec78cf935e72ffc0924bece3dcea331343 2d6275dbaa5a481e0716a8f169a4248404b192ff Carlos <carlosd.cardenas@hotmail.com> 1780060205 +0200	commit: feat: blog de reseñas, colecciones y newsletter
+2d6275dbaa5a481e0716a8f169a4248404b192ff 5bd743f0aafbada354837f95f1ce935c3b9cdf60 Carlos <carlosd.cardenas@hotmail.com> 1780060217 +0200	commit: chore: ignorar .vite (caché de Vite) y eliminar del seguimiento
+5bd743f0aafbada354837f95f1ce935c3b9cdf60 e5b63c94c5b4d0d23abb504be927e9433e4b9542 Carlos <carlosd.cardenas@hotmail.com> 1780062728 +0200	commit: feat: PWA instalable + scroll restoration + iconos app
