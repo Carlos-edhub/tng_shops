@@ -56,7 +56,7 @@ export default function Hero() {
     <section className="hero" role="banner">
       {/* Imagen de fondo absoluta */}
       <div className="hero-bg" aria-hidden="true">
-        <img src="/images/imagenHero.png" alt="" />
+        <img src="/images/imagenHeroPx.png" alt="" />
       </div>
 
       {/* Partículas flotantes */}
