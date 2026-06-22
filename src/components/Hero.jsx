@@ -54,6 +54,11 @@ export default function Hero() {
 
   return (
     <section className="hero" role="banner">
+      {/* Imagen de fondo absoluta */}
+      <div className="hero-bg" aria-hidden="true">
+        <img src="/images/imagenHero.png" alt="" />
+      </div>
+
       {/* Partículas flotantes */}
       <div className="hero-particles" aria-hidden="true">
         {[...Array(6)].map((_, i) => (
