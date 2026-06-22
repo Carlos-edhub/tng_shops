@@ -72,7 +72,7 @@ export default function Hero() {
         ))}
       </div>
 
-      <div className="container hero-inner">
+      <div className="container hero-inner hero-inner--full">
         {/* Columna de texto */}
         <motion.div
           className="hero-copy"
@@ -80,7 +80,7 @@ export default function Hero() {
           initial="hidden"
           animate="visible"
         >
-                    <motion.div className="hero-badge" variants={fadeUp}>
+          <motion.div className="hero-badge" variants={fadeUp}>
             <span className="hero-badge-dot" />
             Nuevas fragancias 2025
           </motion.div>
@@ -109,7 +109,8 @@ export default function Hero() {
               Conócenos
             </Link>
           </motion.div>
-                    <motion.div className="hero-social" variants={fadeUp}>
+          
+          <motion.div className="hero-social" variants={fadeUp}>
             <div className="hero-avatars">
               <div className="hero-avatar" style={{backgroundImage: 'url(https://i.pravatar.cc/32?img=1)'}} />
               <div className="hero-avatar" style={{backgroundImage: 'url(https://i.pravatar.cc/32?img=5)'}} />
@@ -122,40 +123,10 @@ export default function Hero() {
               <span className="hero-stars-text">4.8/5 · 200+ reseñas</span>
             </div>
           </motion.div>
-
         </motion.div>
 
-        {/* Columna de imagen con anillos */}
-        <div className="hero-media" id="hero-media" role="img" aria-label="Colección de perfumes originales tng_shops">
-          {/* Anillos expansivos */}
-          <div className="hero-rings" aria-hidden="true">
-            <div className="hero-ring" />
-            <div className="hero-ring hero-ring--slow" />
-            <div className="hero-ring hero-ring--slowest" />
-          </div>
-
-          {/* Gradiente pulsante dual */}
-          <div className="hero-glow" aria-hidden="true" />
-          <div className="hero-glow hero-glow--alt" aria-hidden="true" />
-
-          {/* Imagen con efecto 3D parallax al mouse */}
-          <motion.div
-            className="hero-image-wrapper"
-            animate={{
-              rotateX: mousePos.y,
-              rotateY: mousePos.x,
-            }}
-            transition={{ type: 'spring', stiffness: 50, damping: 20 }}
-          >
-            <div className="hero-image-glass" />
-            <img
-              src="/images/flyerNuevo.png"
-              alt="TNG Shops - Nuevas fragancias 2025"
-              className="banner-img"
-              loading="lazy"
-            />
-          </motion.div>
-        </div>
+        {/* Espacio para mantener el layout */}
+        <div className="hero-media" aria-hidden="true" />
       </div>
 
       {/* Indicador de scroll */}
@@ -178,4 +149,3 @@ export default function Hero() {
     </section>
   );
 }
-
