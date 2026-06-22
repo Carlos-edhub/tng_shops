@@ -675,7 +675,7 @@ body {
 .hero-copy p {
   color: rgba(255,255,255,0.95);
   font-size: 1.1rem;
-  margin: 0 0 2rem;
+  margin: 0 auto 2rem;
   max-width: 600px;
   line-height: 1.7;
   text-shadow: 0 1px 12px rgba(0,0,0,0.5);
