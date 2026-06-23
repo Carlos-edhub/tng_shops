@@ -65,23 +65,9 @@ export default function ProductCard({ product, index = 0, compact = false }) {
       whileHover={{ y: -6 }}
     >
       <Link to={`/producto/${product.id}`} style={{ textDecoration: 'none', color: 'inherit' }}>
-        <div
-          className="card-media"
-          style={{
-            width: '100%',
-            height: '190px',
-            background: 'var(--bg)',
-            borderRadius: 'var(--radius-md)',
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-            overflow: 'hidden',
-            position: 'relative',
-            marginBottom: '0.25rem',
-          }}
-        >
-          {product.isNew && <span className="card-badge card-badge-new" style={{ position: 'absolute', top: '0.4rem', left: '0.4rem', zIndex: 2, fontSize: '0.6rem', fontWeight: 600, padding: '0.15rem 0.45rem', borderRadius: 'var(--radius-sm)', background: 'var(--accent)', color: '#fff', textTransform: 'uppercase', letterSpacing: '0.5px' }}>Nuevo</span>}
-          {discount > 0 && <span className="card-badge card-badge-discount" style={{ position: 'absolute', top: '0.4rem', right: '0.4rem', zIndex: 2, fontSize: '0.6rem', fontWeight: 600, padding: '0.15rem 0.45rem', borderRadius: 'var(--radius-sm)', background: 'var(--accent-light)', color: 'var(--accent)' }}>-{discount}%</span>}
+        <div className="card-media">
+          {product.isNew && <span className="card-badge card-badge-new">Nuevo</span>}
+          {discount > 0 && <span className="card-badge card-badge-discount">-{discount}%</span>}
           {lowStock && !product.isNew && (
             <div style={{ position: 'absolute', bottom: '0.4rem', left: '0.4rem', right: '0.4rem', zIndex: 2, display: 'flex', alignItems: 'center', gap: '0.3rem' }}>
               <div style={{ flex: 1, height: '3px', background: 'rgba(0,0,0,0.08)', borderRadius: '2px', overflow: 'hidden' }}>
@@ -104,24 +90,11 @@ export default function ProductCard({ product, index = 0, compact = false }) {
           />
         </div>
 
-        {/* Brand + Category pill */}
-        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: '0.4rem' }}>
-          <span style={{ fontSize: '0.7rem', fontWeight: 600, color: 'var(--accent)', textTransform: 'uppercase', letterSpacing: '0.8px' }}>{product.brand}</span>
-          <span style={{ fontSize: '0.6rem', fontWeight: 600, padding: '0.1rem 0.5rem', borderRadius: '999px', background: cc.bg, color: cc.text, border: `1px solid ${cc.border}` }}>
-            {product.category}
-          </span>
-        </div>
+        <span className="card-brand">{product.brand}</span>
+        <h3 className="card h3">{product.name}</h3>
 
-        <h3 style={{ fontSize: '1rem', margin: '0.15rem 0 0.1rem', fontWeight: 600, color: 'var(--text)', letterSpacing: '-0.3px', lineHeight: 1.3 }}>{product.name}</h3>
-
-        {/* Family */}
-        {product.family && (
-          <div style={{ fontSize: '0.7rem', color: 'var(--text-muted)', marginBottom: '0.15rem', fontStyle: 'italic' }}>
-            {product.family}
-          </div>
-        )}
-
-        <p className="card-desc" style={{ color: 'var(--text-secondary)', fontSize: '0.8rem', margin: '0.1rem 0', lineHeight: 1.5, flexGrow: 1 }}>{product.description}</p>
+        {product.family && <div className="card-notes">{product.family}</div>}
+        <p className="card-desc">{product.description}</p>
 
         {/* Intensity & Longevity bars */}
         {!compact && (
@@ -131,16 +104,16 @@ export default function ProductCard({ product, index = 0, compact = false }) {
           </div>
         )}
 
-        <div className="card-meta" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', gap: '0.4rem', marginTop: '0.2rem' }}>
-          <span className="card-notes" style={{ fontSize: '0.7rem', color: 'var(--text-muted)', lineHeight: 1.3, flex: 1 }}>{product.notes}</span>
-          <span className="card-volume" style={{ fontSize: '0.65rem', color: 'var(--text-muted)', whiteSpace: 'nowrap', background: 'var(--surface-hover)', padding: '0.1rem 0.4rem', borderRadius: '4px' }}>{product.volume}</span>
+        <div className="card-meta">
+          <span className="card-notes">{product.notes}</span>
+          <span className="card-volume">{product.volume}</span>
         </div>
       </Link>
 
       {!compact && (
-      <div className="card-foot" style={{ flexDirection: 'column', gap: '0.4rem', marginTop: 'auto', paddingTop: '0.4rem', borderTop: '1px solid var(--border)' }}>
+      <div className="card-foot">
         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', width: '100%' }}>
-          <span className="price" aria-label={`Precio ${product.price} euros`} style={{ fontSize: '1.15rem', fontWeight: 600, color: 'var(--accent)', letterSpacing: '-0.3px' }}>
+          <span className="price" aria-label={`Precio ${product.price} euros`}>
             {product.price.toFixed(2)}€
           </span>
           <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
@@ -158,38 +131,17 @@ export default function ProductCard({ product, index = 0, compact = false }) {
         </div>
         <div style={{ display: 'flex', gap: '0.4rem', width: '100%' }}>
           <button
-            className="btn btn-primary"
+            className="btn btn-primary btn-sm"
             onClick={handleAddToCart}
             aria-label={`Añadir ${product.name} al carrito`}
-            style={{
-              flex: 1, fontSize: '0.8rem', padding: '0.5rem 0.75rem',
-              background: 'var(--accent)',
-              border: 'none', color: '#fff', fontWeight: 600,
-              borderRadius: 'var(--radius-sm)',
-              cursor: 'pointer',
-              transition: 'all 0.25s ease',
-            }}
-            onMouseEnter={(e) => { e.target.style.background = 'var(--accent-hover)'; e.target.style.transform = 'translateY(-1px)'; }}
-            onMouseLeave={(e) => { e.target.style.background = 'var(--accent)'; e.target.style.transform = 'translateY(0)'; }}
           >
             Añadir
           </button>
           <button
-            className="btn btn-outline"
+            className="btn btn-whatsapp btn-sm"
             onClick={() => orderProduct(product.name)}
             aria-label={`Comprar ${product.name} por WhatsApp`}
-            style={{
-              flex: 1, fontSize: '0.8rem', padding: '0.5rem 0.75rem',
-              background: 'rgba(37,211,102,0.08)',
-              border: '1px solid rgba(37,211,102,0.15)',
-              color: '#25D366', fontWeight: 600,
-              borderRadius: 'var(--radius-sm)',
-              cursor: 'pointer',
-              transition: 'all 0.25s ease',
-            }}
             title="Comprar por WhatsApp"
-            onMouseEnter={(e) => { e.target.style.background = '#20BD5A'; e.target.style.color = '#fff'; e.target.style.transform = 'translateY(-1px)'; }}
-            onMouseLeave={(e) => { e.target.style.background = 'rgba(37,211,102,0.08)'; e.target.style.color = '#25D366'; e.target.style.transform = 'translateY(0)'; }}
           >
             WhatsApp
           </button>
