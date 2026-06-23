@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { useWhatsApp } from '../hooks/useWhatsApp';
@@ -28,6 +29,7 @@ function IntensityBar({ value, label }) {
 }
 
 export default function ProductCard({ product, index = 0, compact = false }) {
+  const [isFavorite, setIsFavorite] = useState(false);
   const { orderProduct } = useWhatsApp();
   const dispatch = useCartDispatch();
   const { addToast } = useToast();
@@ -68,6 +70,36 @@ export default function ProductCard({ product, index = 0, compact = false }) {
         <div className="card-media">
           {product.isNew && <span className="card-badge card-badge-new">Nuevo</span>}
           {discount > 0 && <span className="card-badge card-badge-discount">-{discount}%</span>}
+          <button
+            className="favorite-btn"
+            onClick={(e) => {
+              e.preventDefault();
+              e.stopPropagation();
+              setIsFavorite(!isFavorite);
+              addToast(isFavorite ? 'Eliminado de favoritos' : 'Añadido a favoritos', 'success');
+            }}
+            aria-label={isFavorite ? 'Eliminar de favoritos' : 'Añadir a favoritos'}
+            style={{
+              position: 'absolute',
+              top: '0.4rem',
+              right: discount > 0 ? '3.5rem' : '0.4rem',
+              zIndex: 2,
+              background: 'rgba(255,255,255,0.9)',
+              border: 'none',
+              borderRadius: '50%',
+              width: '28px',
+              height: '28px',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              cursor: 'pointer',
+              fontSize: '1rem',
+              transition: 'all 0.3s ease',
+              boxShadow: '0 2px 8px rgba(0,0,0,0.1)',
+            }}
+          >
+            {isFavorite ? '❤️' : '🤍'}
+          </button>
           {lowStock && !product.isNew && (
             <div style={{ position: 'absolute', bottom: '0.4rem', left: '0.4rem', right: '0.4rem', zIndex: 2, display: 'flex', alignItems: 'center', gap: '0.3rem' }}>
               <div style={{ flex: 1, height: '3px', background: 'rgba(0,0,0,0.08)', borderRadius: '2px', overflow: 'hidden' }}>
