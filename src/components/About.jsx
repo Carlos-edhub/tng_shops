@@ -30,8 +30,8 @@ export default function About() {
         {/* Imagen del logo */}
         <div className="media-placeholder">
           <img
-            src="/images/logo.png"
-            alt="Logo tng_shops"
+            src="/images/logoTng_shops.png"
+            alt="Logo TNG Shops"
             className="product-img"
             loading="lazy"
           />
