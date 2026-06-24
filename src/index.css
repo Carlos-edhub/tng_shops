@@ -6,22 +6,22 @@
 
 /* Variables */
 :root {
-  --bg: #FCFCFA;
-  --surface: #FFFFFF;
-  --surface-hover: #F5F7FA;
-  --text: #1A1A1A;
-  --text-secondary: #5C5C5C;
-  --text-muted: #9CA3AF;
-  --accent: #4A9EFF;
-  --accent-hover: #357FE6;
-  --accent-soft: rgba(74, 158, 255, 0.08);
-  --accent-glow: rgba(74, 158, 255, 0.15);
-  --accent-secondary: #F4B183;
-  --accent-secondary-hover: #E89F6A;
-  --accent-secondary-soft: rgba(244, 177, 131, 0.12);
-  --border: rgba(0, 0, 0, 0.06);
-  --border-hover: rgba(0, 0, 0, 0.1);
-  --shadow: rgba(74, 158, 255, 0.06);
+  --bg: #FFFFFF;
+  --surface: #FAFAFA;
+  --surface-hover: #F5F5F5;
+  --text: #111111;
+  --text-secondary: #666666;
+  --text-muted: #999999;
+  --accent: #8B1E2D;
+  --accent-hover: #A5243D;
+  --accent-soft: #F7E8EA;
+  --accent-glow: rgba(139, 30, 45, 0.15);
+  --accent-secondary: #8B1E2D;
+  --accent-secondary-hover: #A5243D;
+  --accent-secondary-soft: #F7E8EA;
+  --border: rgba(0, 0, 0, 0.08);
+  --border-hover: rgba(0, 0, 0, 0.12);
+  --shadow: rgba(139, 30, 45, 0.08);
   --radius-sm: 8px;
   --radius-md: 12px;
   --radius-lg: 16px;
@@ -70,7 +70,7 @@ body {
    Promotional Bar
    ================================================================= */
 .promo-bar {
-  background: linear-gradient(135deg, var(--accent), var(--accent-hover));
+  background: var(--accent);
   padding: 0.4rem 0;
   font-size: 0.8rem;
   position: relative;
@@ -188,7 +188,7 @@ body {
 }
 
 .nav-link:hover {
-  color: var(--text);
+  color: var(--accent);
   background: var(--accent-soft);
 }
 
@@ -971,7 +971,7 @@ body {
   left: 0;
   right: 0;
   height: 2px;
-  background: linear-gradient(90deg, transparent, var(--accent), var(--accent-secondary), transparent);
+  background: linear-gradient(90deg, transparent, var(--accent), var(--accent), transparent);
   opacity: 0;
   transition: opacity var(--transition);
 }
@@ -980,10 +980,10 @@ body {
   background: var(--surface);
   border-color: var(--border-hover);
   transform: translateY(-4px);
-  box-shadow: 0 12px 40px rgba(74, 158, 255, 0.08);
+  box-shadow: 0 12px 40px var(--shadow);
 }
 
-.card:hover::before { opacity: 0.8; }
+.card:hover::before { opacity: 1; }
 
 .card-media {
   width: 100%;
@@ -1369,14 +1369,14 @@ body {
 
 .btn-primary {
   background: var(--accent);
-  color: #fff;
+  color: #FFFFFF;
   font-weight: 600;
 }
 
 .btn-primary:hover {
   background: var(--accent-hover);
   transform: translateY(-1px);
-  box-shadow: 0 4px 16px rgba(74, 158, 255, 0.2);
+  box-shadow: 0 4px 16px var(--accent-glow);
 }
 
 .btn-outline {
@@ -1393,14 +1393,14 @@ body {
 }
 
 .btn-whatsapp {
-  background: #25D366;
-  color: #fff;
+  background: var(--accent);
+  color: #FFFFFF;
   font-weight: 600;
 }
 
 .btn-whatsapp:hover {
-  background: #20BD5A;
-  box-shadow: 0 4px 16px rgba(37, 211, 102, 0.2);
+  background: var(--accent-hover);
+  box-shadow: 0 4px 16px var(--accent-glow);
   transform: translateY(-1px);
 }
 
@@ -1535,9 +1535,9 @@ body {
 }
 
 .brands-item:hover {
-  color: var(--accent);
-  border-color: rgba(74, 158, 255, 0.2);
-  background: var(--accent-soft);
+  color: #FFFFFF;
+  border-color: var(--accent);
+  background: var(--accent);
 }
 
 /* =================================================================
@@ -2291,18 +2291,18 @@ body {
    Dark Mode
    ================================================================= */
 [data-theme="dark"] {
-  --bg: #0F1410;
-  --surface: #1A201C;
-  --surface-hover: #242B26;
-  --text: #F0F2F1;
-  --text-secondary: #B8BDB9;
-  --text-muted: #7A817C;
-  --border: rgba(255, 255, 255, 0.08);
-  --border-hover: rgba(255, 255, 255, 0.12);
-  --shadow: rgba(0, 0, 0, 0.3);
-  --accent-soft: rgba(74, 158, 255, 0.12);
-  --accent-glow: rgba(74, 158, 255, 0.2);
-  --accent-secondary-soft: rgba(244, 177, 131, 0.15);
+  --bg: #0A0A0A;
+  --surface: #141414;
+  --surface-hover: #1E1E1E;
+  --text: #F5F5F5;
+  --text-secondary: #B0B0B0;
+  --text-muted: #707070;
+  --border: rgba(255, 255, 255, 0.1);
+  --border-hover: rgba(255, 255, 255, 0.15);
+  --shadow: rgba(0, 0, 0, 0.5);
+  --accent-soft: rgba(139, 30, 45, 0.15);
+  --accent-glow: rgba(139, 30, 45, 0.3);
+  --accent-secondary-soft: rgba(139, 30, 45, 0.15);
 }
 
 [data-theme="dark"] body {
