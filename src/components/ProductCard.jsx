@@ -8,18 +8,15 @@ import { useToast } from '../context/ToastContext';
 function IntensityBar({ value, label }) {
   const colors = ['#203B36', '#2B4D46', '#3A6B62', '#5E8B82', '#8FB5AC'];
   return (
-    <div style={{ display: 'flex', alignItems: 'center', gap: '0.35rem' }}>
-      <span style={{ fontSize: '0.65rem', color: 'var(--text-muted)', minWidth: '20px' }}>{label}</span>
-      <div style={{ display: 'flex', gap: '2px', flex: 1 }}>
+    <div className="intensity-bar">
+      <span className="intensity-label">{label}</span>
+      <div className="intensity-track">
         {[1,2,3,4,5].map((i) => (
           <div
             key={i}
+            className="intensity-segment"
             style={{
-              height: '4px',
-              flex: 1,
-              borderRadius: '2px',
               background: i <= value ? colors[value - 1] : 'var(--border)',
-              transition: 'background 0.3s ease',
             }}
           />
         ))}
@@ -79,46 +76,26 @@ export default function ProductCard({ product, index = 0, compact = false }) {
               addToast(isFavorite ? 'Eliminado de favoritos' : 'Añadido a favoritos', 'success');
             }}
             aria-label={isFavorite ? 'Eliminar de favoritos' : 'Añadir a favoritos'}
-            style={{
-              position: 'absolute',
-              top: '0.4rem',
-              right: discount > 0 ? '3.5rem' : '0.4rem',
-              zIndex: 2,
-              background: 'rgba(255,255,255,0.9)',
-              border: 'none',
-              borderRadius: '50%',
-              width: '28px',
-              height: '28px',
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'center',
-              cursor: 'pointer',
-              fontSize: '1rem',
-              transition: 'all 0.3s ease',
-              boxShadow: '0 2px 8px rgba(0,0,0,0.1)',
-            }}
+            style={{ right: discount > 0 ? '3.5rem' : '0.4rem' }}
           >
             {isFavorite ? '❤️' : '🤍'}
           </button>
           {lowStock && !product.isNew && (
-            <div style={{ position: 'absolute', bottom: '0.4rem', left: '0.4rem', right: '0.4rem', zIndex: 2, display: 'flex', alignItems: 'center', gap: '0.3rem' }}>
-              <div style={{ flex: 1, height: '3px', background: 'rgba(0,0,0,0.08)', borderRadius: '2px', overflow: 'hidden' }}>
-                <div style={{ width: `${(product.stock / 5) * 100}%`, height: '100%', background: product.stock <= 2 ? '#ef4444' : '#C8B48A', borderRadius: '2px', transition: 'width 0.5s ease' }} />
+            <div className="stock-indicator">
+              <div className="stock-bar">
+                <div 
+                  className={`stock-fill ${product.stock <= 2 ? 'low' : ''}`}
+                  style={{ width: `${(product.stock / 5) * 100}%` }}
+                />
               </div>
-              <span style={{ fontSize: '0.55rem', color: 'var(--text-secondary)', fontWeight: 500 }}>Quedan {product.stock}</span>
+              <span className="stock-text">Quedan {product.stock}</span>
             </div>
           )}
           <img
             src={product.image}
             alt={`${product.name} perfume`}
             loading="lazy"
-            style={{
-              width: '100%',
-              height: '100%',
-              objectFit: 'contain',
-              padding: '0.75rem',
-              transition: 'transform 0.5s cubic-bezier(0.4, 0, 0.2, 1)',
-            }}
+            className="card-media-img"
           />
         </div>
 
@@ -130,7 +107,7 @@ export default function ProductCard({ product, index = 0, compact = false }) {
 
         {/* Intensity & Longevity bars */}
         {!compact && (
-          <div style={{ display: 'flex', flexDirection: 'column', gap: '0.15rem', marginTop: '0.15rem' }}>
+          <div className="card-bars">
             <IntensityBar value={product.intensity || 3} label="Int." />
             <IntensityBar value={product.longevity || 3} label="Dur." />
           </div>
@@ -144,24 +121,20 @@ export default function ProductCard({ product, index = 0, compact = false }) {
 
       {!compact && (
       <div className="card-foot">
-        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', width: '100%' }}>
+        <div className="card-price-row">
           <span className="price" aria-label={`Precio ${product.price} euros`}>
             {product.price.toFixed(2)}€
           </span>
-          <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+          <div className="card-price-extras">
             {product.originalPrice && (
-              <span style={{ color: 'var(--text-muted)', fontSize: '0.8rem', textDecoration: 'line-through' }}>
-                {product.originalPrice.toFixed(2)}€
-              </span>
+              <span className="price-old">{product.originalPrice.toFixed(2)}€</span>
             )}
             {product.price >= 30 && (
-              <span style={{ fontSize: '0.55rem', fontWeight: 500, color: '#22c55e', background: 'rgba(34,197,94,0.08)', padding: '0.1rem 0.35rem', borderRadius: '4px', border: '1px solid rgba(34,197,94,0.15)' }}>
-                Envío gratis
-              </span>
+              <span className="free-shipping-badge">Envío gratis</span>
             )}
           </div>
         </div>
-        <div style={{ display: 'flex', gap: '0.4rem', width: '100%' }}>
+        <div className="card-buttons">
           <button
             className="btn btn-primary btn-sm"
             onClick={handleAddToCart}
