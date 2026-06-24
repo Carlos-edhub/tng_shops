@@ -5,7 +5,7 @@ const products = [
     description: 'Misterioso e intenso. Noche con carácter.',
     price: 29.99,
     originalPrice: 39.99,
-    image: '/images/productos/lattafa_fakhar_men_black.png',
+    image: '/images/productos/lattafa_fakhar_men_black/bottle.png',
     category: 'Hombre',
     brand: 'Lattafa',
     family: 'Oriental Amaderado',
@@ -15,7 +15,9 @@ const products = [
     volume: '100ml',
     stock: 3,
     gallery: [
-      '/images/productos/lattafa_fakhar_men_black.png',
+      '/images/productos/lattafa_fakhar_men_black/bottle.png',
+      '/images/productos/lattafa_fakhar_men_black/box.png',
+      '/images/productos/lattafa_fakhar_men_black/notes.png',
     ],
   },
   {
@@ -24,7 +26,7 @@ const products = [
     description: 'Fresco y moderno. Para el día a día.',
     price: 26.99,
     originalPrice: 36.99,
-    image: '/images/productos/lattafa_fakhar_men_silver.png',
+    image: '/images/productos/lattafa_fakhar_men_silver/bottle.png',
     category: 'Hombre',
     brand: 'Lattafa',
     family: 'Aromático Fougère',
@@ -34,7 +36,9 @@ const products = [
     volume: '100ml',
     isNew: true,
     gallery: [
-      '/images/productos/lattafa_fakhar_men_silver.png',
+      '/images/productos/lattafa_fakhar_men_silver/bottle.png',
+      '/images/productos/lattafa_fakhar_men_silver/box.png',
+      '/images/productos/lattafa_fakhar_men_silver/notes.png',
     ],
   },
   {
@@ -43,7 +47,7 @@ const products = [
     description: 'Audaz y especiado. Presencia magnética.',
     price: 24.99,
     originalPrice: 34.99,
-    image: '/images/productos/lattafa_asad.png',
+    image: '/images/productos/lattafa_asad/bottle.png',
     category: 'Hombre',
     brand: 'Lattafa',
     family: 'Oriental Especiado',
@@ -53,7 +57,9 @@ const products = [
     volume: '100ml',
     stock: 5,
     gallery: [
-      '/images/productos/lattafa_asad.png',
+      '/images/productos/lattafa_asad/bottle.png',
+      '/images/productos/lattafa_asad/box.png',
+      '/images/productos/lattafa_asad/notes.png',
     ],
   },
   {
@@ -62,7 +68,7 @@ const products = [
     description: 'Dulce y envolvente. Perfume de impacto.',
     price: 22.99,
     originalPrice: 29.99,
-    image: '/images/productos/lattafa_ramz_silver.png',
+    image: '/images/productos/lattafa_ramz_silver/bottle.png',
     category: 'Hombre',
     brand: 'Lattafa',
     family: 'Oriental Dulce',
@@ -72,7 +78,9 @@ const products = [
     volume: '100ml',
     isNew: true,
     gallery: [
-      '/images/productos/lattafa_ramz_silver.png',
+      '/images/productos/lattafa_ramz_silver/bottle.png',
+      '/images/productos/lattafa_ramz_silver/box.png',
+      '/images/productos/lattafa_ramz_silver/notes.png',
     ],
   },
   {
@@ -81,7 +89,7 @@ const products = [
     description: 'Exótico y cálido. Aventura en botella.',
     price: 27.99,
     originalPrice: 37.99,
-    image: '/images/productos/lattafa_qaed_al_fursan.png',
+    image: '/images/productos/lattafa_qaed_al_fursan/bottle.png',
     category: 'Hombre',
     brand: 'Lattafa',
     family: 'Amaderado Afrutado',
@@ -90,7 +98,9 @@ const products = [
     notes: 'Piña, azafrán, ámbar',
     volume: '100ml',
     gallery: [
-      '/images/productos/lattafa_qaed_al_fursan.png',
+      '/images/productos/lattafa_qaed_al_fursan/bottle.png',
+      '/images/productos/lattafa_qaed_al_fursan/box.png',
+      '/images/productos/lattafa_qaed_al_fursan/notes.png',
     ],
   },
   {
@@ -99,7 +109,7 @@ const products = [
     description: 'Versátil y fresco. Ideal diario.',
     price: 29.99,
     originalPrice: 35.99,
-    image: '/images/productos/lattafa_al_wisam.png',
+    image: '/images/productos/lattafa_al_wisam/bottle.png',
     category: 'Hombre',
     brand: 'Lattafa',
     family: 'Amaderado Fresco',
@@ -108,7 +118,9 @@ const products = [
     notes: 'Manzana, cedro, sándalo',
     volume: '100ml',
     gallery: [
-      '/images/productos/lattafa_al_wisam.png',
+      '/images/productos/lattafa_al_wisam/bottle.png',
+      '/images/productos/lattafa_al_wisam/box.png',
+      '/images/productos/lattafa_al_wisam/notes.png',
     ],
   },
   {
@@ -117,7 +129,7 @@ const products = [
     description: 'Amaderado y sensual. Deja huella.',
     price: 19.99,
     originalPrice: 29.99,
-    image: '/images/productos/lattafa_raghba_wood_intense.png',
+    image: '/images/productos/lattafa_raghba_wood_intense/bottle.png',
     category: 'Hombre',
     brand: 'Lattafa',
     family: 'Amaderado',
@@ -127,7 +139,9 @@ const products = [
     volume: '100ml',
     stock: 4,
     gallery: [
-      '/images/productos/lattafa_raghba_wood_intense.png',
+      '/images/productos/lattafa_raghba_wood_intense/bottle.png',
+      '/images/productos/lattafa_raghba_wood_intense/box.png',
+      '/images/productos/lattafa_raghba_wood_intense/notes.png',
     ],
   },
   {
@@ -136,7 +150,7 @@ const products = [
     description: 'Clásico árabe. Elegancia tradicional.',
     price: 18.99,
     originalPrice: 28.99,
-    image: '/images/productos/lattafa_shem_al_sheikh.png',
+    image: '/images/productos/lattafa_shem_al_sheikh/bottle.png',
     category: 'Hombre',
     brand: 'Lattafa',
     family: 'Oriental Clásico',
@@ -145,7 +159,9 @@ const products = [
     notes: 'Bergamota, oud, sándalo',
     volume: '100ml',
     gallery: [
-      '/images/productos/lattafa_shem_al_sheikh.png',
+      '/images/productos/lattafa_shem_al_sheikh/bottle.png',
+      '/images/productos/lattafa_shem_al_sheikh/box.png',
+      '/images/productos/lattafa_shem_al_sheikh/notes.png',
     ],
   },
   {
@@ -154,7 +170,7 @@ const products = [
     description: 'Marino y enérgico. Frescura activa.',
     price: 21.99,
     originalPrice: 31.99,
-    image: '/images/productos/lattafa_najdia.png',
+    image: '/images/productos/lattafa_najdia/bottle.png',
     category: 'Hombre',
     brand: 'Lattafa',
     family: 'Acuático Aromático',
@@ -164,7 +180,9 @@ const products = [
     volume: '100ml',
     isNew: true,
     gallery: [
-      '/images/productos/lattafa_najdia.png',
+      '/images/productos/lattafa_najdia/bottle.png',
+      '/images/productos/lattafa_najdia/box.png',
+      '/images/productos/lattafa_najdia/notes.png',
     ],
   },
   {
@@ -173,7 +191,7 @@ const products = [
     description: 'Oud intenso. Noches árabes.',
     price: 25.99,
     originalPrice: 32.99,
-    image: '/images/productos/lattafa_oud_al_sahraa.png',
+    image: '/images/productos/lattafa_oud_al_sahraa/bottle.png',
     category: 'Hombre',
     brand: 'Lattafa',
     family: 'Oud Amaderado',
@@ -183,7 +201,9 @@ const products = [
     volume: '75ml',
     stock: 2,
     gallery: [
-      '/images/productos/lattafa_oud_al_sahraa.png',
+      '/images/productos/lattafa_oud_al_sahraa/bottle.png',
+      '/images/productos/lattafa_oud_al_sahraa/box.png',
+      '/images/productos/lattafa_oud_al_sahraa/notes.png',
     ],
   },
   {
@@ -192,7 +212,7 @@ const products = [
     description: 'Icono indiscutido. Poderoso y elegante.',
     price: 36.99,
     originalPrice: 46.99,
-    image: '/images/productos/armaf_club_de_nuit_intense_man.png',
+    image: '/images/productos/armaf_club_de_nuit_intense_man/bottle.png',
     category: 'Hombre',
     brand: 'Armaf',
     family: 'Cítrico Amaderado',
@@ -202,7 +222,9 @@ const products = [
     volume: '105ml',
     stock: 5,
     gallery: [
-      '/images/productos/armaf_club_de_nuit_intense_man.png',
+      '/images/productos/armaf_club_de_nuit_intense_man/bottle.png',
+      '/images/productos/armaf_club_de_nuit_intense_man/box.png',
+      '/images/productos/armaf_club_de_nuit_intense_man/notes.png',
     ],
   },
   {
@@ -211,7 +233,7 @@ const products = [
     description: 'Audaz y moderno. Presencia segura.',
     price: 36.99,
     originalPrice: 49.99,
-    image: '/images/productos/armaf_club_de_nuit_iconic.png',
+    image: '/images/productos/armaf_club_de_nuit_iconic/bottle.png',
     category: 'Hombre',
     brand: 'Armaf',
     family: 'Amaderado Especiado',
@@ -221,7 +243,9 @@ const products = [
     volume: '105ml',
     isNew: true,
     gallery: [
-      '/images/productos/armaf_club_de_nuit_iconic.png',
+      '/images/productos/armaf_club_de_nuit_iconic/bottle.png',
+      '/images/productos/armaf_club_de_nuit_iconic/box.png',
+      '/images/productos/armaf_club_de_nuit_iconic/notes.png',
     ],
   },
   {
@@ -230,7 +254,7 @@ const products = [
     description: 'Elegancia fresca y magnética.',
     price: 36.99,
     originalPrice: 49.99,
-    image: '/images/productos/armaf_club_de_nuit_sillage.png',
+    image: '/images/productos/armaf_club_de_nuit_sillage/bottle.png',
     category: 'Hombre',
     brand: 'Armaf',
     family: 'Cítrico Aromático',
@@ -239,7 +263,9 @@ const products = [
     notes: 'Limón, jengibre, almizcle',
     volume: '100ml',
     gallery: [
-      '/images/productos/armaf_club_de_nuit_sillage.png',
+      '/images/productos/armaf_club_de_nuit_sillage/bottle.png',
+      '/images/productos/armaf_club_de_nuit_sillage/box.png',
+      '/images/productos/armaf_club_de_nuit_sillage/notes.png',
     ],
   },
   {
@@ -248,7 +274,7 @@ const products = [
     description: 'Frescura única. Estilo inconfundible.',
     price: 38.99,
     originalPrice: 52.99,
-    image: '/images/productos/armaf_club_de_nuit_milestone.png',
+    image: '/images/productos/armaf_club_de_nuit_milestone/bottle.png',
     category: 'Hombre',
     brand: 'Armaf',
     family: 'Acuático Fougère',
@@ -258,7 +284,9 @@ const products = [
     volume: '100ml',
     isNew: true,
     gallery: [
-      '/images/productos/armaf_club_de_nuit_milestone.png',
+      '/images/productos/armaf_club_de_nuit_milestone/bottle.png',
+      '/images/productos/armaf_club_de_nuit_milestone/box.png',
+      '/images/productos/armaf_club_de_nuit_milestone/notes.png',
     ],
   },
   {
@@ -267,7 +295,7 @@ const products = [
     description: 'Energía urbana. Para el día.',
     price: 32.99,
     originalPrice: 44.99,
-    image: '/images/productos/armaf_club_de_nuit_urban_man.png',
+    image: '/images/productos/armaf_club_de_nuit_urban_man/bottle.png',
     category: 'Hombre',
     brand: 'Armaf',
     family: 'Cítrico Especiado',
@@ -276,7 +304,9 @@ const products = [
     notes: 'Toronja, cardamomo, cedro',
     volume: '100ml',
     gallery: [
-      '/images/productos/armaf_club_de_nuit_urban_man.png',
+      '/images/productos/armaf_club_de_nuit_urban_man/bottle.png',
+      '/images/productos/armaf_club_de_nuit_urban_man/box.png',
+      '/images/productos/armaf_club_de_nuit_urban_man/notes.png',
     ],
   },
   {
@@ -285,7 +315,7 @@ const products = [
     description: 'Dinámico y cautivador. Atrévete.',
     price: 28.99,
     originalPrice: 35.99,
-    image: '/images/productos/armaf_hunter_intense.png',
+    image: '/images/productos/armaf_hunter_intense/bottle.png',
     category: 'Hombre',
     brand: 'Armaf',
     family: 'Aromático Amaderado',
@@ -295,7 +325,9 @@ const products = [
     volume: '100ml',
     stock: 3,
     gallery: [
-      '/images/productos/armaf_hunter_intense.png',
+      '/images/productos/armaf_hunter_intense/bottle.png',
+      '/images/productos/armaf_hunter_intense/box.png',
+      '/images/productos/armaf_hunter_intense/notes.png',
     ],
   },
   {
@@ -304,7 +336,7 @@ const products = [
     description: 'Deportivo y limpio. Para el gym.',
     price: 19.99,
     originalPrice: 29.99,
-    image: '/images/productos/armaf_tag_him.png',
+    image: '/images/productos/armaf_tag_him/bottle.png',
     category: 'Hombre',
     brand: 'Armaf',
     family: 'Cítrico Deportivo',
@@ -313,7 +345,9 @@ const products = [
     notes: 'Toronja, menta, almizcle',
     volume: '100ml',
     gallery: [
-      '/images/productos/armaf_tag_him.png',
+      '/images/productos/armaf_tag_him/bottle.png',
+      '/images/productos/armaf_tag_him/box.png',
+      '/images/productos/armaf_tag_him/notes.png',
     ],
   },
   {
@@ -322,7 +356,7 @@ const products = [
     description: 'Aventura acuática. Frescura total.',
     price: 21.99,
     originalPrice: 31.99,
-    image: '/images/productos/armaf_voyage_blues.png',
+    image: '/images/productos/armaf_voyage_blues/bottle.png',
     category: 'Hombre',
     brand: 'Armaf',
     family: 'Acuático',
@@ -331,7 +365,9 @@ const products = [
     notes: 'Mandarina, lavanda, sándalo',
     volume: '100ml',
     gallery: [
-      '/images/productos/armaf_voyage_blues.png',
+      '/images/productos/armaf_voyage_blues/bottle.png',
+      '/images/productos/armaf_voyage_blues/box.png',
+      '/images/productos/armaf_voyage_blues/notes.png',
     ],
   },
   {
@@ -340,7 +376,7 @@ const products = [
     description: 'Épico y misterioso. Viaje olfativo.',
     price: 27.99,
     originalPrice: 37.99,
-    image: '/images/productos/armaf_odyssey_homme.png',
+    image: '/images/productos/armaf_odyssey_homme/bottle.png',
     category: 'Hombre',
     brand: 'Armaf',
     family: 'Oriental Amaderado',
@@ -350,7 +386,9 @@ const products = [
     volume: '100ml',
     stock: 4,
     gallery: [
-      '/images/productos/armaf_odyssey_homme.png',
+      '/images/productos/armaf_odyssey_homme/bottle.png',
+      '/images/productos/armaf_odyssey_homme/box.png',
+      '/images/productos/armaf_odyssey_homme/notes.png',
     ],
   },
   {
@@ -359,7 +397,7 @@ const products = [
     description: 'Amaderado íntimo. Elegancia nocturna.',
     price: 24.99,
     originalPrice: 29.99,
-    image: '/images/productos/armaf_shadow_wood.png',
+    image: '/images/productos/armaf_shadow_wood/bottle.png',
     category: 'Hombre',
     brand: 'Armaf',
     family: 'Amaderado',
@@ -368,7 +406,9 @@ const products = [
     notes: 'Madera de cedro, ámbar, vainilla',
     volume: '75ml',
     gallery: [
-      '/images/productos/armaf_shadow_wood.png',
+      '/images/productos/armaf_shadow_wood/bottle.png',
+      '/images/productos/armaf_shadow_wood/box.png',
+      '/images/productos/armaf_shadow_wood/notes.png',
     ],
   },
   {
@@ -377,7 +417,7 @@ const products = [
     description: 'Cálido y dulce. Perfecto otoño.',
     price: 39.99,
     originalPrice: 49.99,
-    image: '/images/productos/lattafa_khamrah.png',
+    image: '/images/productos/lattafa_khamrah/bottle.png',
     category: 'Mujer',
     brand: 'Lattafa',
     family: 'Gourmand',
@@ -387,7 +427,9 @@ const products = [
     volume: '100ml',
     stock: 1,
     gallery: [
-      '/images/productos/lattafa_khamrah.png',
+      '/images/productos/lattafa_khamrah/bottle.png',
+      '/images/productos/lattafa_khamrah/box.png',
+      '/images/productos/lattafa_khamrah/notes.png',
     ],
   },
   {
@@ -396,7 +438,7 @@ const products = [
     description: 'Suave empolvado. Sofisticado.',
     price: 32.99,
     originalPrice: 44.99,
-    image: '/images/productos/lattafa_ana_abiyedh_poudree.png',
+    image: '/images/productos/lattafa_ana_abiyedh_poudree/bottle.png',
     category: 'Mujer',
     brand: 'Lattafa',
     family: 'Empolvado Almizclado',
@@ -406,7 +448,9 @@ const products = [
     volume: '100ml',
     isNew: true,
     gallery: [
-      '/images/productos/lattafa_ana_abiyedh_poudree.png',
+      '/images/productos/lattafa_ana_abiyedh_poudree/bottle.png',
+      '/images/productos/lattafa_ana_abiyedh_poudree/box.png',
+      '/images/productos/lattafa_ana_abiyedh_poudree/notes.png',
     ],
   },
   {
@@ -415,7 +459,7 @@ const products = [
     description: 'Femenino y floral. Dulce y moderno.',
     price: 24.99,
     originalPrice: 34.99,
-    image: '/images/productos/lattafa_yara.png',
+    image: '/images/productos/lattafa_yara/bottle.png',
     category: 'Mujer',
     brand: 'Lattafa',
     family: 'Floral Afrutado',
@@ -425,7 +469,9 @@ const products = [
     volume: '100ml',
     isNew: true,
     gallery: [
-      '/images/productos/lattafa_yara.png',
+      '/images/productos/lattafa_yara/bottle.png',
+      '/images/productos/lattafa_yara/box.png',
+      '/images/productos/lattafa_yara/notes.png',
     ],
   },
   {
@@ -434,7 +480,7 @@ const products = [
     description: 'Rosa delicada. Elegancia pura.',
     price: 28.99,
     originalPrice: 38.99,
-    image: '/images/productos/lattafa_ana_abiyedh_rose.png',
+    image: '/images/productos/lattafa_ana_abiyedh_rose/bottle.png',
     category: 'Mujer',
     brand: 'Lattafa',
     family: 'Floral',
@@ -443,7 +489,9 @@ const products = [
     notes: 'Rosa turca, pachulí, sándalo',
     volume: '100ml',
     gallery: [
-      '/images/productos/lattafa_ana_abiyedh_rose.png',
+      '/images/productos/lattafa_ana_abiyedh_rose/bottle.png',
+      '/images/productos/lattafa_ana_abiyedh_rose/box.png',
+      '/images/productos/lattafa_ana_abiyedh_rose/notes.png',
     ],
   },
   {
@@ -452,7 +500,7 @@ const products = [
     description: 'Alegre y juvenil. Flores y fruta.',
     price: 22.99,
     originalPrice: 32.99,
-    image: '/images/productos/lattafa_haya.png',
+    image: '/images/productos/lattafa_haya/bottle.png',
     category: 'Mujer',
     brand: 'Lattafa',
     family: 'Floral Afrutado',
@@ -462,7 +510,9 @@ const products = [
     volume: '80ml',
     stock: 4,
     gallery: [
-      '/images/productos/lattafa_haya.png',
+      '/images/productos/lattafa_haya/bottle.png',
+      '/images/productos/lattafa_haya/box.png',
+      '/images/productos/lattafa_haya/notes.png',
     ],
   },
   {
@@ -471,7 +521,7 @@ const products = [
     description: 'Cálido y acogedor. Vainilla árabe.',
     price: 18.99,
     originalPrice: 28.99,
-    image: '/images/productos/lattafa_raghba.png',
+    image: '/images/productos/lattafa_raghba/bottle.png',
     category: 'Mujer',
     brand: 'Lattafa',
     family: 'Oriental Vainilla',
@@ -480,7 +530,9 @@ const products = [
     notes: 'Vainilla, ámbar, oud suave',
     volume: '100ml',
     gallery: [
-      '/images/productos/lattafa_raghba.png',
+      '/images/productos/lattafa_raghba/bottle.png',
+      '/images/productos/lattafa_raghba/box.png',
+      '/images/productos/lattafa_raghba/notes.png',
     ],
   },
   {
@@ -489,7 +541,7 @@ const products = [
     description: 'Refinada y lujosa. Ocasiones especiales.',
     price: 29.99,
     originalPrice: 39.99,
-    image: '/images/productos/lattafa_la_charmante.png',
+    image: '/images/productos/lattafa_la_charmante/bottle.png',
     category: 'Mujer',
     brand: 'Lattafa',
     family: 'Floral Amaderado',
@@ -499,7 +551,9 @@ const products = [
     volume: '80ml',
     stock: 2,
     gallery: [
-      '/images/productos/lattafa_la_charmante.png',
+      '/images/productos/lattafa_la_charmante/bottle.png',
+      '/images/productos/lattafa_la_charmante/box.png',
+      '/images/productos/lattafa_la_charmante/notes.png',
     ],
   },
   {
@@ -508,7 +562,7 @@ const products = [
     description: 'Almizcle limpio. Frescura íntima.',
     price: 20.99,
     originalPrice: 30.99,
-    image: '/images/productos/lattafa_musk_mood.png',
+    image: '/images/productos/lattafa_musk_mood/bottle.png',
     category: 'Mujer',
     brand: 'Lattafa',
     family: 'Almizclado',
@@ -517,7 +571,9 @@ const products = [
     notes: 'Almizcle blanco, lavanda, iris',
     volume: '100ml',
     gallery: [
-      '/images/productos/lattafa_musk_mood.png',
+      '/images/productos/lattafa_musk_mood/bottle.png',
+      '/images/productos/lattafa_musk_mood/box.png',
+      '/images/productos/lattafa_musk_mood/notes.png',
     ],
   },
   {
@@ -526,7 +582,7 @@ const products = [
     description: 'Oud floral. Misterio femenino.',
     price: 23.99,
     originalPrice: 28.99,
-    image: '/images/productos/lattafa_oud_mood.png',
+    image: '/images/productos/lattafa_oud_mood/bottle.png',
     category: 'Mujer',
     brand: 'Lattafa',
     family: 'Oud Floral',
@@ -535,7 +591,9 @@ const products = [
     notes: 'Oud, rosa, azafrán',
     volume: '75ml',
     gallery: [
-      '/images/productos/lattafa_oud_mood.png',
+      '/images/productos/lattafa_oud_mood/bottle.png',
+      '/images/productos/lattafa_oud_mood/box.png',
+      '/images/productos/lattafa_oud_mood/notes.png',
     ],
   },
   {
@@ -544,7 +602,7 @@ const products = [
     description: 'Oud y frutos rojos. Seducción.',
     price: 31.99,
     originalPrice: 43.99,
-    image: '/images/productos/lattafa_bade_al_oud_amethyst.png',
+    image: '/images/productos/lattafa_bade_al_oud_amethyst/bottle.png',
     category: 'Mujer',
     brand: 'Lattafa',
     family: 'Oud Afrutado',
@@ -554,7 +612,9 @@ const products = [
     volume: '80ml',
     isNew: true,
     gallery: [
-      '/images/productos/lattafa_bade_al_oud_amethyst.png',
+      '/images/productos/lattafa_bade_al_oud_amethyst/bottle.png',
+      '/images/productos/lattafa_bade_al_oud_amethyst/box.png',
+      '/images/productos/lattafa_bade_al_oud_amethyst/notes.png',
     ],
   },
   {
@@ -563,7 +623,7 @@ const products = [
     description: 'Floral afrutado. Femenino poderoso.',
     price: 34.99,
     originalPrice: 47.99,
-    image: '/images/productos/armaf_club_de_nuit_woman.png',
+    image: '/images/productos/armaf_club_de_nuit_woman/bottle.png',
     category: 'Mujer',
     brand: 'Armaf',
     family: 'Floral Afrutado',
@@ -572,7 +632,9 @@ const products = [
     notes: 'Melocotón, rosa, almizcle',
     volume: '100ml',
     gallery: [
-      '/images/productos/armaf_club_de_nuit_woman.png',
+      '/images/productos/armaf_club_de_nuit_woman/bottle.png',
+      '/images/productos/armaf_club_de_nuit_woman/box.png',
+      '/images/productos/armaf_club_de_nuit_woman/notes.png',
     ],
   },
   {
@@ -581,7 +643,7 @@ const products = [
     description: 'Imperial y cautivador. Deja huella.',
     price: 36.99,
     originalPrice: 44.99,
-    image: '/images/productos/armaf_club_de_nuit_imperial.png',
+    image: '/images/productos/armaf_club_de_nuit_imperial/bottle.png',
     category: 'Mujer',
     brand: 'Armaf',
     family: 'Floral Amaderado',
@@ -591,7 +653,9 @@ const products = [
     volume: '100ml',
     stock: 3,
     gallery: [
-      '/images/productos/armaf_club_de_nuit_imperial.png',
+      '/images/productos/armaf_club_de_nuit_imperial/bottle.png',
+      '/images/productos/armaf_club_de_nuit_imperial/box.png',
+      '/images/productos/armaf_club_de_nuit_imperial/notes.png',
     ],
   },
   {
@@ -600,7 +664,7 @@ const products = [
     description: 'Dulce y coqueto. Para el día.',
     price: 19.99,
     originalPrice: 29.99,
-    image: '/images/productos/armaf_tag_her.png',
+    image: '/images/productos/armaf_tag_her/bottle.png',
     category: 'Mujer',
     brand: 'Armaf',
     family: 'Floral Dulce',
@@ -609,7 +673,9 @@ const products = [
     notes: 'Frambuesa, violeta, almizcle',
     volume: '100ml',
     gallery: [
-      '/images/productos/armaf_tag_her.png',
+      '/images/productos/armaf_tag_her/bottle.png',
+      '/images/productos/armaf_tag_her/box.png',
+      '/images/productos/armaf_tag_her/notes.png',
     ],
   },
   {
@@ -618,7 +684,7 @@ const products = [
     description: 'Cautivador y vibrante. Elegancia.',
     price: 24.99,
     originalPrice: 34.99,
-    image: '/images/productos/armaf_hunter_woman.png',
+    image: '/images/productos/armaf_hunter_woman/bottle.png',
     category: 'Mujer',
     brand: 'Armaf',
     family: 'Floral Cítrico',
@@ -628,7 +694,9 @@ const products = [
     volume: '100ml',
     isNew: true,
     gallery: [
-      '/images/productos/armaf_hunter_woman.png',
+      '/images/productos/armaf_hunter_woman/bottle.png',
+      '/images/productos/armaf_hunter_woman/box.png',
+      '/images/productos/armaf_hunter_woman/notes.png',
     ],
   },
   {
@@ -637,7 +705,7 @@ const products = [
     description: 'Aventura floral. Viaje sensorial.',
     price: 26.99,
     originalPrice: 36.99,
-    image: '/images/productos/armaf_odyssey_woman.png',
+    image: '/images/productos/armaf_odyssey_woman/bottle.png',
     category: 'Mujer',
     brand: 'Armaf',
     family: 'Floral Acuático',
@@ -647,7 +715,9 @@ const products = [
     volume: '100ml',
     stock: 5,
     gallery: [
-      '/images/productos/armaf_odyssey_woman.png',
+      '/images/productos/armaf_odyssey_woman/bottle.png',
+      '/images/productos/armaf_odyssey_woman/box.png',
+      '/images/productos/armaf_odyssey_woman/notes.png',
     ],
   },
   {
@@ -656,7 +726,7 @@ const products = [
     description: 'Floral acuático. Brisa primaveral.',
     price: 22.99,
     originalPrice: 32.99,
-    image: '/images/productos/armaf_voyage_bloom.png',
+    image: '/images/productos/armaf_voyage_bloom/bottle.png',
     category: 'Mujer',
     brand: 'Armaf',
     family: 'Floral Acuático',
@@ -665,7 +735,9 @@ const products = [
     notes: 'Loto, peonía, almizcle',
     volume: '100ml',
     gallery: [
-      '/images/productos/armaf_voyage_bloom.png',
+      '/images/productos/armaf_voyage_bloom/bottle.png',
+      '/images/productos/armaf_voyage_bloom/box.png',
+      '/images/productos/armaf_voyage_bloom/notes.png',
     ],
   },
   {
@@ -674,7 +746,7 @@ const products = [
     description: 'Apertura floral. Romance en botella.',
     price: 28.99,
     originalPrice: 34.99,
-    image: '/images/productos/armaf_prelude.png',
+    image: '/images/productos/armaf_prelude/bottle.png',
     category: 'Mujer',
     brand: 'Armaf',
     family: 'Floral',
@@ -684,7 +756,9 @@ const products = [
     volume: '80ml',
     isNew: true,
     gallery: [
-      '/images/productos/armaf_prelude.png',
+      '/images/productos/armaf_prelude/bottle.png',
+      '/images/productos/armaf_prelude/box.png',
+      '/images/productos/armaf_prelude/notes.png',
     ],
   },
   {
@@ -693,7 +767,7 @@ const products = [
     description: 'Osado y dulce. Personalidad única.',
     price: 25.99,
     originalPrice: 35.99,
-    image: '/images/productos/armaf_dareej.png',
+    image: '/images/productos/armaf_dareej/bottle.png',
     category: 'Mujer',
     brand: 'Armaf',
     family: 'Oriental Dulce',
@@ -702,7 +776,9 @@ const products = [
     notes: 'Canela, caramelo, flor de naranjo',
     volume: '100ml',
     gallery: [
-      '/images/productos/armaf_dareej.png',
+      '/images/productos/armaf_dareej/bottle.png',
+      '/images/productos/armaf_dareej/box.png',
+      '/images/productos/armaf_dareej/notes.png',
     ],
   },
   {
@@ -711,7 +787,7 @@ const products = [
     description: 'Estela floral. Sofisticación pura.',
     price: 31.99,
     originalPrice: 43.99,
-    image: '/images/productos/armaf_sillage_woman.png',
+    image: '/images/productos/armaf_sillage_woman/bottle.png',
     category: 'Mujer',
     brand: 'Armaf',
     family: 'Floral Empolvado',
@@ -720,7 +796,9 @@ const products = [
     notes: 'Lirio, violeta, almizcle',
     volume: '100ml',
     gallery: [
-      '/images/productos/armaf_sillage_woman.png',
+      '/images/productos/armaf_sillage_woman/bottle.png',
+      '/images/productos/armaf_sillage_woman/box.png',
+      '/images/productos/armaf_sillage_woman/notes.png',
     ],
   },
   {
@@ -728,7 +806,7 @@ const products = [
     name: 'Mystique',
     description: 'Misteriosa y envolvente. Noche mágica.',
     price: 27.99,
-    image: '/images/productos/armaf_mystique.png',
+    image: '/images/productos/armaf_mystique/bottle.png',
     category: 'Mujer',
     brand: 'Armaf',
     family: 'Oriental Floral',
@@ -738,7 +816,9 @@ const products = [
     volume: '75ml',
     stock: 2,
     gallery: [
-      '/images/productos/armaf_mystique.png',
+      '/images/productos/armaf_mystique/bottle.png',
+      '/images/productos/armaf_mystique/box.png',
+      '/images/productos/armaf_mystique/notes.png',
     ],
   },
   {
@@ -747,7 +827,7 @@ const products = [
     description: 'Limpio y fresco. Para cualquier momento.',
     price: 28.99,
     originalPrice: 39.99,
-    image: '/images/productos/lattafa_ana_abiyedh_white.png',
+    image: '/images/productos/lattafa_ana_abiyedh_white/bottle.png',
     category: 'Unisex',
     brand: 'Lattafa',
     family: 'Almizclado Fresco',
@@ -756,7 +836,9 @@ const products = [
     notes: 'Lavanda, almizcle blanco, pera',
     volume: '100ml',
     gallery: [
-      '/images/productos/lattafa_ana_abiyedh_white.png',
+      '/images/productos/lattafa_ana_abiyedh_white/bottle.png',
+      '/images/productos/lattafa_ana_abiyedh_white/box.png',
+      '/images/productos/lattafa_ana_abiyedh_white/notes.png',
     ],
   },
   {
@@ -765,7 +847,7 @@ const products = [
     description: 'Moderno y envolvente. Magnético.',
     price: 33.99,
     originalPrice: 46.99,
-    image: '/images/productos/armaf_opacity.png',
+    image: '/images/productos/armaf_opacity/bottle.png',
     category: 'Unisex',
     brand: 'Armaf',
     family: 'Amaderado Moderno',
@@ -774,7 +856,9 @@ const products = [
     notes: 'Ámbar gris, bergamota, pachulí',
     volume: '90ml',
     gallery: [
-      '/images/productos/armaf_opacity.png',
+      '/images/productos/armaf_opacity/bottle.png',
+      '/images/productos/armaf_opacity/box.png',
+      '/images/productos/armaf_opacity/notes.png',
     ],
   },
   {
@@ -783,7 +867,7 @@ const products = [
     description: 'Dulce y jugoso. Vibrante y juvenil.',
     price: 31.99,
     originalPrice: 44.99,
-    image: '/images/productos/armaf_bright_peach.png',
+    image: '/images/productos/armaf_bright_peach/bottle.png',
     category: 'Unisex',
     brand: 'Armaf',
     family: 'Gourmand Afrutado',
@@ -793,7 +877,9 @@ const products = [
     volume: '100ml',
     isNew: true,
     gallery: [
-      '/images/productos/armaf_bright_peach.png',
+      '/images/productos/armaf_bright_peach/bottle.png',
+      '/images/productos/armaf_bright_peach/box.png',
+      '/images/productos/armaf_bright_peach/notes.png',
     ],
   },
   {
@@ -802,7 +888,7 @@ const products = [
     description: 'Intenso y seductor. Noche mágica.',
     price: 26.99,
     originalPrice: 37.99,
-    image: '/images/productos/lattafa_maahir_black.png',
+    image: '/images/productos/lattafa_maahir_black/bottle.png',
     category: 'Unisex',
     brand: 'Lattafa',
     family: 'Oriental Amaderado',
@@ -811,7 +897,9 @@ const products = [
     notes: 'Café, cardamomo, cuero',
     volume: '100ml',
     gallery: [
-      '/images/productos/lattafa_maahir_black.png',
+      '/images/productos/lattafa_maahir_black/bottle.png',
+      '/images/productos/lattafa_maahir_black/box.png',
+      '/images/productos/lattafa_maahir_black/notes.png',
     ],
   },
   {
@@ -820,7 +908,7 @@ const products = [
     description: 'Energía pura. Frescura épica.',
     price: 23.99,
     originalPrice: 33.99,
-    image: '/images/productos/lattafa_rave_now.png',
+    image: '/images/productos/lattafa_rave_now/bottle.png',
     category: 'Unisex',
     brand: 'Lattafa',
     family: 'Cítrico Aromático',
@@ -830,7 +918,9 @@ const products = [
     volume: '100ml',
     isNew: true,
     gallery: [
-      '/images/productos/lattafa_rave_now.png',
+      '/images/productos/lattafa_rave_now/bottle.png',
+      '/images/productos/lattafa_rave_now/box.png',
+      '/images/productos/lattafa_rave_now/notes.png',
     ],
   },
   {
@@ -839,7 +929,7 @@ const products = [
     description: 'Rosa árabe. Elegancia compartida.',
     price: 28.99,
     originalPrice: 39.99,
-    image: '/images/productos/lattafa_fakhar_rose.png',
+    image: '/images/productos/lattafa_fakhar_rose/bottle.png',
     category: 'Unisex',
     brand: 'Lattafa',
     family: 'Floral Amaderado',
@@ -848,9 +938,12 @@ const products = [
     notes: 'Rosa, azafrán, almizcle',
     volume: '100ml',
     gallery: [
-      '/images/productos/lattafa_fakhar_rose.png',
+      '/images/productos/lattafa_fakhar_rose/bottle.png',
+      '/images/productos/lattafa_fakhar_rose/box.png',
+      '/images/productos/lattafa_fakhar_rose/notes.png',
     ],
   },
 ];
 
 export default products;
+
