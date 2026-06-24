@@ -112,15 +112,6 @@ body {
   display: flex;
   align-items: center;
   gap: 0.4rem;
-  text-align: center;
-}
-
-.promo-bar-text {
-  color: #fff;
-  font-weight: 500;
-  display: flex;
-  align-items: center;
-  gap: 0.4rem;
 }
 
 .promo-bar-actions {
