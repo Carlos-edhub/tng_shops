@@ -20,7 +20,7 @@ export default function Header() {
     <header className="site-header" role="banner">
       <a href="#main-content" className="skip-link">Ir al contenido principal</a>
       <div className="container header-inner">
-        <NavLink to="/" className="logo" aria-label="tng_shops - inicio">
+        <NavLink to="/" className="logo" aria-label="tng_shops - inicio" onClick={() => window.location.href = '/'}>
           tng_<span>shops</span>
         </NavLink>
 
