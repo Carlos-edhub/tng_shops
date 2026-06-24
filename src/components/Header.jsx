@@ -16,18 +16,13 @@ import ThemeToggle from './ThemeToggle';
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
 
-  const handleLogoClick = (e) => {
-    e.preventDefault();
-    window.location.href = '/';
-  };
-
   return (
     <header className="site-header" role="banner">
       <a href="#main-content" className="skip-link">Ir al contenido principal</a>
       <div className="container header-inner">
-        <button onClick={handleLogoClick} className="logo" aria-label="tng_shops - inicio">
+        <NavLink to="/" className="logo" aria-label="tng_shops - inicio" onClick={() => window.location.reload()}>
           tng_<span>shops</span>
-        </button>
+        </NavLink>
 
         <nav className="nav nav-desktop" role="navigation" aria-label="Navegación principal">
           <NavLink to="/" className="nav-link" end>Inicio</NavLink>

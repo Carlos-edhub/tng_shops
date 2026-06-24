@@ -85,8 +85,6 @@ body {
   justify-content: space-between;
   gap: 1rem;
   min-height: 32px;
-  max-width: 1200px;
-  margin: 0 auto;
   padding: 0 1.5rem;
 }
 
@@ -161,11 +159,6 @@ body {
 
 @media (max-width: 700px) {
   .promo-bar-actions { display: none; }
-  .promo-bar-inner { 
-    justify-content: center;
-    padding: 0 1rem;
-  }
-  
   .promo-bar-slide {
     padding: 0 0.5rem;
   }
