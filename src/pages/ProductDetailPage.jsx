@@ -181,7 +181,6 @@ export default function ProductDetailPage() {
                   display: 'flex',
                   alignItems: 'center',
                   justifyContent: 'center',
-                  minHeight: '300px',
                   border: '1px solid var(--border)',
                   position: 'relative',
                   overflow: 'hidden',
@@ -209,7 +208,7 @@ export default function ProductDetailPage() {
                   transition={{ duration: 0.3 }}
                   style={{
                     maxWidth: '100%',
-                    maxHeight: '350px',
+                    height: 'auto',
                     objectFit: 'contain',
                     filter: 'drop-shadow(0 20px 40px rgba(0,0,0,0.4))',
                   }}
