@@ -177,7 +177,7 @@ export default function ProductDetailPage() {
                 style={{
                   background: 'var(--surface)',
                   borderRadius: 'var(--radius-xl)',
-                  padding: '1.5rem',
+                  padding: '0.75rem',
                   display: 'flex',
                   alignItems: 'center',
                   justifyContent: 'center',
