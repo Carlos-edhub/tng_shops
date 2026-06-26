@@ -208,9 +208,10 @@ export default function ProductDetailPage() {
                   animate={{ opacity: 1, scale: 1 }}
                   transition={{ duration: 0.3 }}
                   style={{
-                    maxWidth: '100%',
-                    maxHeight: '400px',
+                    width: '100%',
+                    height: '100%',
                     objectFit: 'contain',
+                    padding: '0.5rem',
                     filter: 'drop-shadow(0 20px 40px rgba(0,0,0,0.4))',
                   }}
                 />
