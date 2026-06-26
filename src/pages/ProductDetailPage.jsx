@@ -177,11 +177,11 @@ export default function ProductDetailPage() {
                 style={{
                   background: 'var(--surface)',
                   borderRadius: 'var(--radius-xl)',
-                  padding: '2rem',
+                  padding: '1.5rem',
                   display: 'flex',
                   alignItems: 'center',
                   justifyContent: 'center',
-                  minHeight: '400px',
+                  minHeight: '300px',
                   border: '1px solid var(--border)',
                   position: 'relative',
                   overflow: 'hidden',
@@ -208,10 +208,9 @@ export default function ProductDetailPage() {
                   animate={{ opacity: 1, scale: 1 }}
                   transition={{ duration: 0.3 }}
                   style={{
-                    width: '100%',
-                    height: '100%',
+                    maxWidth: '100%',
+                    maxHeight: '350px',
                     objectFit: 'contain',
-                    padding: '0.5rem',
                     filter: 'drop-shadow(0 20px 40px rgba(0,0,0,0.4))',
                   }}
                 />
